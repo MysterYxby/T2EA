@@ -2,7 +2,7 @@
 This is official tensorflow implementation of ["T2EA: Target-aware Taylor Expansion Approximation Network for Infrared and Visible Image Fusion"](https://ieeexplore.ieee.org/document/10819442).
 
 ## Architecture
-![The overall framework of the Target-aware Taylor Expansion Approximation Network for Infrared and Visible Image Fusion.](https://github.com/MysterYxby/T2EA/blob/main/framework.jpg)
+![The overall framework of the Target-aware Taylor Expansion Approximation Network for Infrared and Visible Image Fusion.](https://github.com/MysterYxby/T2EA/blob/main/Figure/framework.jpg)
 
 ## Recommended Environment
 - Python 3.7
@@ -43,4 +43,4 @@ The dataset is sourced from Tang et al. And our code is partly constructed on Se
   keywords={Feature extraction;Image fusion;Taylor series;Image segmentation;Transformers;Object detection;Deep learning;Correlation;Transforms;Object segmentation;Image fusion;Taylor expansion approximation;infrared and visible feature representation;dual-branch feature fusion;object detection},
   doi={10.1109/TCSVT.2024.3524794}}
 ```
-
+### If you have any question about this code, feel free to reach me (cloudxu08@outlook.com)
