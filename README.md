@@ -4,7 +4,7 @@ This is official tensorflow implementation of ["T2EA: Target-aware Taylor Expans
 - Python 3.7
 - Pytorch >= 1.8
 ## Training Dataset
-Please download the dataset [MSRS]((https://github.com/Linfeng-Tang/MSRS).
+Please download the dataset [MSRS](https://github.com/Linfeng-Tang/MSRS).
 
 ## To train
 ### 1 To train the Taylor network
