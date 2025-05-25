@@ -21,7 +21,6 @@ Run "test_image.py " (Plz. set the relevant parameters and models' dirs).
 
 ## Acknowledgement
 The dataset is sourced from Tang et al. And our code is partly constructed on SeAFusion.
-
 [1].
 
 [1] L. Tang, J. Yuan, H. Zhang, X. Jiang, and J. Ma, “PIAFusion: A progressive infrared and visible image fusion network based on illumination aware,” Inf. Fusion, vols. 83–84, pp. 79–92, Jul. 2022.
