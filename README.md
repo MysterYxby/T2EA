@@ -40,7 +40,6 @@ The dataset is sourced from Tang et al. And our code is partly constructed on Se
   volume={35},
   number={5},
   pages={4831-4845},
-  keywords={Feature extraction;Image fusion;Taylor series;Image segmentation;Transformers;Object detection;Deep learning;Correlation;Transforms;Object segmentation;Image fusion;Taylor expansion approximation;infrared and visible feature representation;dual-branch feature fusion;object detection},
   doi={10.1109/TCSVT.2024.3524794}}
 ```
 ### If you have any question about this code, feel free to reach me (cloudxu08@outlook.com)
