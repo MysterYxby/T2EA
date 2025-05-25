@@ -24,6 +24,7 @@ The dataset is sourced from Tang et al. And our code is partly constructed on Se
 [1].
 
 [1] L. Tang, J. Yuan, H. Zhang, X. Jiang, and J. Ma, “PIAFusion: A progressive infrared and visible image fusion network based on illumination aware,” Inf. Fusion, vols. 83–84, pp. 79–92, Jul. 2022.
+
 [2].
 
 [2] L. Tang, J. Yuan, and J. Ma, “Image fusion in the loop of high-level vision tasks: A semantic-aware real-time infrared and visible image fusion network,” Inf. Fusion, vol. 82, pp. 28–42, Jun. 2022.
