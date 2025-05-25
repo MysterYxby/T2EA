@@ -1,5 +1,9 @@
 # T2EA: Target-aware Taylor Expansion Approximation Network for Infrared and Visible Image Fusion
 This is official tensorflow implementation of ["T2EA: Target-aware Taylor Expansion Approximation Network for Infrared and Visible Image Fusion"](https://ieeexplore.ieee.org/document/10819442).
+
+## Architecture
+![The overall framework of the Target-aware Taylor Expansion Approximation Network for Infrared and Visible Image Fusion.](https://github.com/MysterYxby/T2EA/main/framework.jpg)
+
 ## Recommended Environment
 - Python 3.7
 - Pytorch >= 1.8
