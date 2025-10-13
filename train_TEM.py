@@ -79,7 +79,7 @@ def train_Taylor_Encoder(train_root,test_root,batch_size,shuffle,epochs,Layer,lr
         dataset_val = TaylorDataset(test_root)
         val_loader = DataLoader(dataset_val, batch_size = batch_size, shuffle = shuffle, num_workers = 0)
         with torch.no_grad():
-            for _,(img_batch) in enumerate (train_loader):
+            for _,(img_batch) in enumerate (val_loader):
                 #predict
                 img = img_batch.to(device)
                 out, y = Model(img,Layer)
@@ -106,8 +106,8 @@ def train_Taylor_Encoder(train_root,test_root,batch_size,shuffle,epochs,Layer,lr
 
 if __name__ =='__main__':
     setup_seed(0)
-    train_Taylor_Encoder(train_root = '../Data/train',
-                     test_root  =  '../Data/test',
+    train_Taylor_Encoder(train_root = '../../IVFusion/Dataset/Taylor_Data/train',
+                     test_root  =  '../../IVFusion/Dataset/Taylor_Data/test',
                      batch_size = 2,
                      shuffle = True,
                      epochs = 200,

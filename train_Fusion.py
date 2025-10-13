@@ -99,7 +99,7 @@ def train_fusion(epochs,lr,batch_size,shuffle,train_ir_path,train_vis_path,test_
         dataset_val = FusionDataset(test_ir_path,test_vis_path)
         val_loader = DataLoader(dataset_val, batch_size = batch_size, shuffle = shuffle, num_workers = 0)
         with torch.no_grad():
-            for _,(ir_batch,vis_batch) in enumerate (train_loader):
+            for _,(ir_batch,vis_batch) in enumerate (val_loader):
 
                 #test
                 ir = ir_batch.to(device)
@@ -138,10 +138,10 @@ if __name__ == '__main__':
              lr = 1e-5,
              batch_size = 2,
              shuffle = True,
-             train_ir_path = '../Data/MSRS/train/ir',
-             train_vis_path = '../Data/MSRS/train/vis',
-             test_ir_path = '../Data/MSRS/test/ir',
-             test_vis_path = '../Data/MSRS/test/vis',
+             train_ir_path = '../../IVFusion/dataset/MSRS/Infrared/train',
+             train_vis_path = '../../IVFusion/dataset/MSRS/Visible/train',
+             test_ir_path = '../../IVFusion/dataset/MSRS/Infrared/test',
+             test_vis_path = '../../IVFusion/dataset/MSRS/Visible/test',
              Taylor_path = 'model//Taylor.pt')
 
 
