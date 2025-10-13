@@ -1,6 +1,5 @@
 # T2EA: Target-aware Taylor Expansion Approximation Network for Infrared and Visible Image Fusion
 This is official Pytorch implementation of ["T2EA: Target-aware Taylor Expansion Approximation Network for Infrared and Visible Image Fusion"](https://ieeexplore.ieee.org/document/10819442).
-
 ## Architecture
 ![The overall framework of the Target-aware Taylor Expansion Approximation Network for Infrared and Visible Image Fusion.](https://github.com/MysterYxby/T2EA/blob/main/Figure/framework.jpg)
 
@@ -23,6 +22,7 @@ Run "train_task.py " (Plz. set the relevant parameters and dirs (the dirs in "Da
 ## To test
 Run "test_image.py " (Plz. set the relevant parameters and models' dirs).
 
+### 🔈2025.10.13：Revise some bugs and Upload the models for directly testing.
 ## Acknowledgement
 The dataset is sourced from Tang et al. And our code is partly constructed on SeAFusion.
 
