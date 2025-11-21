@@ -10,6 +10,8 @@ This is official Pytorch implementation of ["T2EA: Target-aware Taylor Expansion
 Please download the dataset [MSRS](https://github.com/Linfeng-Tang/MSRS).
 
 ## To train
+### 0 Download the Seg. pre-training models in the links as fllows:
+- [Baidu] (https://pan.baidu.com/s/1SEucIswvTHMZnKs5AiDFdg?pwd=6666) password: 6666
 ### 1 To train the Taylor network
 Run "train_TEM.py " (Plz. set the relevant parameters and dirs).
 
@@ -22,7 +24,6 @@ Run "train_task.py " (Plz. set the relevant parameters and dirs (the dirs in "Da
 ## To test
 Run "test_image.py " (Plz. set the relevant parameters and models' dirs).
 
-### 🔈2025.10.13：Revise some bugs and Upload the models for directly testing.
 ## Acknowledgement
 The dataset is sourced from Tang et al. And our code is partly constructed on SeAFusion.
 
